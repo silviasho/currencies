@@ -1,0 +1,153 @@
+body{
+    background-image: url("pics/eru.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.display-4 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.rezome {
+    margin: 20px;
+    
+}
+
+p{
+    font-weight: 800
+}
+.btn-info {
+    margin-top: 10px;
+}
+
+.serchBtn {
+    margin-left: 10px;
+    padding-left: 10px
+}
+
+input {
+    border-radius: 8px;
+}
+
+.holder {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .40rem;
+    width: 350px;
+    height: 100%;
+    border:black solid 5px;
+    background-size: cover;
+    padding: 30px;
+    margin-top: 60px;
+    margin: 20px;
+    
+}
+
+
+.mypic {
+    background-image: url("pics/me1.png");
+    height: 500px;
+    width: 300px;
+    border: solid lightblue 2px;
+    margin: 50px;
+}
+
+
+.backToHead {
+   
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.roww {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+
+.modal{
+    overflow: auto;
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+a{
+    font-weight: 900;
+    color: black
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(10, 10, 10);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+input:checked+.slider {
+    background-color: gray;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px gray
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.modal {
+    display: block;
+    
+    
+}
+
+
